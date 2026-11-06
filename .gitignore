@@ -1,0 +1,6 @@
+.env
+qdrant_data/
+__pycache__/
+evals/results.json
+uploads/
+manuals/*.pdf

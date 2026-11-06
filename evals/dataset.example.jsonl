@@ -1,0 +1,3 @@
+{"question": "EXAMPLE: What should I do if the unit shows error E4?", "expected_source": "your-manual.pdf", "expected_pages": [23], "must_mention": ["filter"]}
+{"question": "EXAMPLE: How do I reset the device to factory settings?", "expected_source": "your-manual.pdf", "expected_pages": [31, 32], "must_mention": ["hold"]}
+{"question": "EXAMPLE: What is the warranty on the competitor's product?", "answerable": false}
