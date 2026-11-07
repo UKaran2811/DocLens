@@ -30,6 +30,11 @@ def vector_store() -> QdrantVectorStore:
             COLLECTION,
             vectors_config=models.VectorParams(size=dim, distance=models.Distance.COSINE),
         )
+        c.create_payload_index(
+            COLLECTION,
+            field_name="metadata.source",
+            field_schema=models.PayloadSchemaType.KEYWORD,
+        )
     return QdrantVectorStore(client=c, collection_name=COLLECTION, embedding=embeddings())
 
 

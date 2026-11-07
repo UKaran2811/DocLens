@@ -7,7 +7,7 @@ langchain
 langchain-core
 langchain-community
 langchain-text-splitters
-langchain-anthropic
+langchain-openai
 langchain-qdrant
 qdrant-client
 fastembed
